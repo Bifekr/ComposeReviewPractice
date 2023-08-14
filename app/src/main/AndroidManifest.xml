@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeReviewPractice"
+        tools:targetApi="31">
+        <activity
+            android:name=".basicplaylist.Review08"
+            android:exported="false"
+            android:label="@string/title_activity_review08"
+            android:theme="@style/Theme.ComposeReviewPractice" />
+        <activity
+            android:name=".basicplaylist.Review07"
+            android:exported="false"
+            android:label="@string/title_activity_review07"
+            android:theme="@style/Theme.ComposeReviewPractice" />
+        <activity
+            android:name=".basicplaylist.Review05"
+            android:exported="false"
+            android:label="@string/title_activity_review05"
+            android:theme="@style/Theme.ComposeReviewPractice" />
+        <activity
+            android:name=".basicplaylist.Review04"
+            android:exported="false"
+            android:label="@string/title_activity_review04"
+            android:theme="@style/Theme.ComposeReviewPractice" />
+        <activity
+            android:name=".basicplaylist.Review03"
+            android:exported="false"
+            android:label="@string/title_activity_review03"
+            android:theme="@style/Theme.ComposeReviewPractice" />
+        <activity
+            android:name=".basicplaylist.Review06"
+            android:exported="false"
+            android:label="@string/title_activity_review06"
+            android:theme="@style/Theme.ComposeReviewPractice" />
+        <activity
+            android:name=".basicplaylist.Review0203"
+            android:exported="false"
+            android:label="@string/title_activity_review0203"
+            android:theme="@style/Theme.ComposeReviewPractice" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeReviewPractice">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
